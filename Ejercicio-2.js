@@ -6,6 +6,7 @@
 // Declaración de variables
 let nota1, nota2, nota3, promedio;
 // Datos de entrada
+
 nota1 = prompt("Ingrese la primera nota:");
 nota2 = prompt("Ingrese la segunda nota:");
 nota3 = prompt("Ingrese la tercera nota:");
@@ -17,3 +18,5 @@ nota3 = parseFloat(nota3);
 promedio = (nota1 + nota2 + nota3) / 3;
 // Datos de salida
 console.log("El promedio de las notas es: " + promedio);
+
+
